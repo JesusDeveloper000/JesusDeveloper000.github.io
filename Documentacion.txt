@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Jacket Developer</title>
+    <!--Permitir caracteres unicode y el uso de la tabla oscura y que sea un poco responsive para moviles-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <!--para usar las tablas escribir <table class="table table-dark"> -->
+
+	<style> 
+		body{background-color: gray;padding: 0px;font-family: Arial;}
+		
+		#menu{
+			background-color: #000;
+
+		}
+        
+		#menu ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+        
+		#menu ul li{
+			display: inline-block;
+		}
+        
+		#menu ul li a{
+			color: white;
+			display: block;
+			padding: 15px 15px;
+			text-decoration: none;
+		}
+        
+		#menu ul li a:hover{
+			background-color: #42B881;
+		}
+        
+		.item-r{
+			float: right;
+		}
+        
+        .Boton {
+            color: #000000 !important;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 0.5em 1.2em;
+            background: rgba(0,0,0,0);
+            border: 2px solid;
+            border-color: #000000;
+            transition: all 1s ease;
+            position: relative;
+    }
+    
+.Boton:hover {
+    background: #0a0a0a;
+    color: #fff !important;
+}
+	</style>
+    
+</head>
+
+<body>
+	<div id="menu">
+		<ul>
+			<li><a href="https:github.com/JacketDeveloper">Home</a></li>
+			<li><a href="#">Informacion</a></li>
+			<li><a href="#">Documentacion</a></li>
+			<li class="item-r"><a href="#">Creditos</a></li>
+		</ul>
+	</div>
+   <div align="center"> <font face="Arial Black", size="6">REALIDAD AUMENTADA & REALIDAD VIRTUAL</font> </div>
+
+   <br>
+
+   <font face="Arial Black", size="5" <h1> ¿QUE ES LA REALIDAD VIRTUAL? </h1> </font>
+   <p>La realidad virtual o VR se trata de un entorno compuesto de una serie de escenas y objetos, con una apariencia real pero generado de forma artificial. Se trata por tanto de un entorno desarrollado de forma artificial, empleando diferentes tecnologías informáticas, que provoca una sensación de inmersión en el usuario, que le hace pensar que realmente está en él. 
+
+    Ya sabes qué es la realidad virtual. Vamos a analizar los diferentes dispositivos. Para visualizar dicho escenario o entorno, el usuario utiliza lo que se conoce como gafas de realidad virtual o lentes de realidad virtual, que en ocasiones se acompañan de otros dispositivos que incrementan la sensación de inmersión como pueden ser:</p>
+    
+   <li>Guantes Especiales</li>
+    <li>Trajes especiales.</li>
+    <li>Sistemas de sonido envolvente.</li>
+    <li>Otro tipo de periféricos de control de realidad virtual</li>
+   
+ <br>
+   <font face="Arial Black", size="5" <h1>¿CUAL ES LA HISTORIA REALIDAD VIRTUAL?</h1> </font>
+  <p>Como acabamos de saber que es la realidad virtual, pasamos a señalar cuales son los principales hitos y acontecimientos de la breve historia de la realidad virtual.
+
+    En los años 50 encontramos un prototipo de Morton Heilig denominado sensorama que permitía al usuario visualizar pequeñas películas a la vez que se estimulaba el oído, el olfato y el tacto. Posteriormente patentó su máscara teleférica.
+    
+    A finales de los años 60 aparece el primer diseño de casco o gafas de realidad virtual, el HMD. Solamente permitía visualizar imágenes en 3D sin movimiento. 
+    
+    Ya casi en los años 80 el MIT desarrollo una simulación virtual de Aspen. En ella los alumnos podían pasear por las calles de la ciudad, elaborada a través de fotografías de la misma. Esto provocó que una gran cantidad de empresas comenzaran a desarrollar la industria de la realidad virtual en los videojuegos, que se vieron obligadas a cerrar tras el derrumbe del sector norteamericano a principios de los 80. Además, a mediados de los 80 comenzaron a producirse los primeros sistemas de realidad virtual con aplicaciones médicas. 
+    
+    En los años 90 comenzaron a producirse lanzamientos comerciales en el sector de la realidad virtual. Principalmente en el mundo de los videojuegos así como el primer sistema de realidad virtual con conexión online y producción en serie. 
+    
+    Próximas al año 2010 se introdujeron novedades en este ámbito como el desarrollo de Google Street View o los primeros prototipos de Oculus Rift. La publicación final de las lentes de realidad virtual de las que es propiedad Facebook estuvo acompañada de los modelos de Sony y HTC. Esto ha supuesto un gran impulso al desarrollo de la tecnología, al tratarse de componentes disponibles por precios asequibles.</p>
+<br>
+<br>
+ <div align="center"> <font face="Arial Black", size="4">VENTAJAS Y DEVENTAJAS </div> </font>
+    <div class="container">
+        <table class="table table-dark">
+          <thead> 
+            <tr> 
+              <th>Ventajas</th> 
+              <th>Desventajas</th>
+              
+            </tr> 
+          </thead>
+          <tbody>
+            <tr> 
+              <td>La RV, cuando es implementada adecuadamente, puede ser un viaje sensorial increíble.</td>
+              <td>La creación de contenido tiende a ser personalizada y, en muchas ocasiones, cara</td> 
+              
+            </tr>
+            <tr> 
+              <td>Al aplicarla a la educación, la RV hace que el aprendizaje sea más fácil y cómodo.</td>
+              <td>Con frecuencia, la RV es una experiencia aislante e individual - lleva a los usuarios a otro lugar y los retira del ambiente existente.</td> 
+              
+            </tr>
+            <tr> 
+              <td>Los usuarios de realidad virtual pueden experimentar con ambientes artificiales.</td>
+              <td>Para las demostraciones, la RV es lenta. Se necesita tiempo para configurar el ‘headset’, probarlo/ajustarlo y explicar cómo funcionan los controles para que el usuario pueda ver el contenido.</td> 
+              
+            </tr>
+          </tbody>
+        </table>
+     </div>  
+<br>
+<br>
+<Font face="'Arial Black", size="5">COMPONENTES PARA LA REALIDAD VIRTUAL</Font>
+<br>
+   <li> Gafas de realidad virtual</li> Actualmente podemos encontrar dos modelos diferentes de gafas de realidad virtual o lentes de realidad virtual. Las que cuentan con pantalla incorporada y las que están preparadas para usarlas junto con un Smartphone. Se trata del componente principal de los sistemas de realidad virtual. Es el que permite al usuario visualizar el entorno virtual en el que se desarrolla la experiencia final.
+    <li> Sensores de posición.</li> Dispositivos que se colocan en la habitación dónde se utilice el sistema de realidad virtual. Permitie al sistema determinar la ubicación del usuario en todo momento. De esta forma se da la posibilidad de moverse libremente por el espacio virtual, utilizando su movimiento en la habitación.
+     <li>Controladores</li> Es habitual que los sistemas de realidad virtual cuenten con algún tipo de dispositivo de control. Un dispositivo de control permite al usuario llevar a cabo la interacción con los elementos del entorno virtual. Por lo general se trata de un mando con una serie de botones, con un sistema de seguimiento posicional para representar su movimiento en el entorno virtual. 
+     <li>Software y contenidos</li> Todos estos dispositivos asociados a los sistemas de realidad virtual no tendría ningún sentido o utilidad sin la presencia de un software que gestione el entorno virtual y los contenidos del mismo
+     
+<br>
+<font face="Arial Black", size="5">¿CUAL ES LA IMPORTANCIA DE LA REALIDAD VIRTUAL?</font>
+<br>
+<p>si miramos hacia varios años atrás, podemos notar lo mucho que hemos avanzado como sociedad en cuestión de tecnología. Y es que hasta hace poco la realidad virtual solo era posible en las obras de ciencia ficción.</p>
+
+   <p> Dichas tecnologías se han convertido en el día a día de muchas personas, pues son cada vez más utilizadas no solo en el ámbito médico, educativo y científico, sino en los distintos sectores industriales.
+    Gracias a ellas, se pueden minimizar los errores en la fabricación de distintos objetos, en su mayoría de alto valor y complejidad.
+   De esta manera se tiene una visión más detallada de sus características, se pueden poner a prueba y manipular sin la necesidad de preocuparse por perder los materiales debido a algún error
+    Además, es muy útil como herramienta educativa, puesto que abre la puerta a otros métodos de aprendizaje y facilita el trabajo de laboratorio en carreras del área de ciencias de la salud e ingenierías.    
+    De hecho, universidades como Harvard y Stanford fueron de las primeras en implementar estos métodos a sus planes de estudio.</p>
+<font face="Arial Black", size="5">DATO DE COLOR SABIAS QUE EXISTEN 3 TIPOS DE REALIDAD VIRTUAL</font>
+<br>
+<font face="Impact", size="5">REALIDAD VIRTUAL NO INMERSIVA</font>
+<li>Se le dice no inmersiva porque el usuario tiene mayor conciencia de que se trata de una realidad simulada. Se trata del tipo más común de todos y —por lo mismo— puede ser pasado por alto.</li>
+<br>
+<font face="Impact", size="5">REALIDAD VIRTUAL SEMI INMERSIVA</font>
+<li>En este tipo de realidad el usuario aún distingue el mundo real del virtual, aunque esta línea se vuelve más difusa que en el caso de la no inmersiva.
+
+    Para lograr una experiencia semi inmersiva se necesita de elementos virtuales apoyados de otros elementos físicos, creando así una realidad mixta. Por ejemplo, las cámaras de simulación de vuelo que cuentan con un espacio físico similar a una cabina real, pero en lugar de cristales tiene pantallas en las que se proyecta la simulación.
+    
+    Por su naturaleza, esta tecnología tiene un mayor aprovechamiento en el sector industrial y de educación, ya que facilita en gran medida la interacción con la información sin la necesidad de abandonar por completo el entorno real.</li>
+<br>
+<font face="Impact", size="5">REALIDAD VIRTUAL INMERSIVA</font>
+<li>Esta es la que ofrece la máxima experiencia de inmersión y la que se puede considerar más “futurista”, debido a la imagen que nos hemos creado por las obras de ficción.
+
+    Un dispositivo habitual de RV inmersiva consiste en un casco conectado a un ordenador, que tiene una pantalla de alta resolución y ocupa toda la visión del usuario, además de sensores de movimiento conectados por todo el cuerpo.
+    
+    El resultado: la persona siente que de verdad está en ese mundo.</li>
+<br>
+<br>
+
+
+<font size="5", face="Monospace">La Informacion fue sacada de la pagina Euroinnova.es, si quieres darle un vistazo haz click en el boton para ir automaticamente.</font>
+
+<br>
+<br>
+
+<div align="center"> <a class="Boton", href="https://www.euroinnova.edu.es/blog/que-es-la-realidad-virtual">Haz Click Aqui</a></div>
+
+<br>
+<br>
+<br>
+<div align="center"><font face="Arial Black", size="5">¿QUE ES LA REALIDAD AUMENTADA?</font></div>
+<p>La Realidad Aumentada (RA) asigna la interacción entre ambientes virtuales y el mundo físico, posibilitando que ambos se entremezclen a través de un dispositivo tecnológico como webcams, teléfonos móviles (IOS o Android), tabletas, entre otros.
+
+    En otras palabras, la RA insiere objetos virtuales en el contexto físico y se los muestra al usuario usando la interfaz del ambiente real con el apoyo de la tecnología. Este recurso viene revolucionando la forma en que lidiamos con nuestras tareas (e incluso, las que les asignamos a las máquinas).
+    
+    De ese modo, podemos afirmar que la Realidad Aumentada se caracteriza por:</p>
+    
+    <li>combinar el mundo real y el virtual;</li>
+    <li>ofrecer una interacción en tiempo real</li>
+    <li>adaptarse al entorno en que se insiere</li>
+    <li>interactuar con todas las capacidades físicas del entorno (en tres dimensiones)</li>
+    ¿Has notado que nos referimos a la Realidad Virtual como parte integrante de la Realidad Aumentada?<br> Eso porque RA y RV son dos conceptos distintos, aunque comúnmente confundidos, y que en muchos casos trabajan de forma conjunta.
+    <br>
+    <br>
+   <div align="center"><font face="Arial Black", size="4">HISTORIA DE LA REALIDAD AUMENTADA</font></div>
+    <article style="border: ridge black">
+        <article style="background-color:aliceblue">
+        
+        <div align="center">Articulo sacado de tech.com.mx</div>
+        La historia de la realidad aumentada comenzó con una curiosa máquina. Esta fue inventada por el polifacético Morton Heilig, quien además de un reconocido filósofo fue un visionario y realizador de cine.
+
+En 1957, este hombre que era superior a su tiempo comenzó a construir un prototipo con un aspecto similar al de una máquina de videojuegos arcade, que fueron muy comunes en el mercado, en la década de los 90.
+
+La bautizó como Sensorama y era algo que muy pocos para esa época podían entender, pues proyectaba imágenes en tercera dimensión o 3D. Por si fuera poco, quienes la oyeron dicen que emitía un sonido envolvente, como el que el cine ha ideado para recrear el de una nave extraterrestre.
+
+Por si fuera poco, cuentan que hacía vibrar el asiento y lanzaba aire al espectador. Pensar en lo que sentía todo el que vivió esa experiencia para esa época, es simplemente inverosímil.
+
+Dicen que las imágenes usadas por el inventor para mostrar su creación, generaban la sensación de estar montado en una motocicleta y recorrer las calles de Brooklyn, en Nueva York. Es decir, muchos debieron pensar que se trataba de brujería o magia negra.
+
+Pero no, a todas luces, Sensorama era un coqueteo con la realidad virtual, con el futuro, con la ficción. Sin embargo, expertos aseguran que también hay ciertos matices de realidad aumentada en ella, por lo que se puede decir que ambas tecnologías nacieron muy unidas, casi como hermanas gemelas.
+
+Por encima de los incrédulos, los estudios siguieron y en 1966 el profesor de Ingeniería Eléctrica de la Universidad de Harvard, Ivan Sutherland, creó un dispositivo que fue determinante para el futuro.
+
+Se llamaba el HMD o human mounted display, por sus siglas en inglés. Pero no se parecían a los lentes de ahora, sino que era una maquinaria inmensamente grande que colgaba del techo del laboratorio para que el usuario se colocara en el lugar preciso.
+
+Al tiempo que el investigador Boeing Tom Caudell inventaba el concepto de realidad aumentada, la tecnología nacía de la mano de dos trabajos más. Uno de ellos fue el de L.B Rosenberg, quien trabajaba para la fuerza aérea de los Estados Unidos.
+
+Este era un dispositivo que indicaba a los usuarios los procedimientos para realizar algunas tareas a medida que se presentaban, es decir, algo muy parecido a una guía virtual.
+
+Mientras en la Universidad de Columbia, un grupo de inventores creó un dispositivo que HMD que interactuaba con una impresora. Se le llamó Karma (Knowledge-based Augmented Reality for Maintenance Assistance) y este proyectaba una imagen en 3D para dar instrucciones a un usuario sobre cómo recargar la máquina, sin tener que recurrir al manual de uso.
+      </article>
+  </article>
+<br>
+<font face="Arial Black", size="3">Comentarios(0)</p></font>
+
+<br>
+<font face="Arial Black", size="5">¿COMO FUNCIONA LA REALIDAD AUMENTADA?</font>
+<br>
+<p>La Realidad Aumentada es la combinación de dos tecnologías, la visión artificial y los motores gráficos.</p>
+<br>
+<font face="Arial Black", size="5">MOTOR GRAFICO</font>
+<li>El motor gráfico se ocupa de renderizar los contenidos, típicamente en 3D, que muestra la Realidad Aumentada. La visión artificial se ocupa de que la ubicación de los contenidos  aumentados sea la correcta en la escena, para que la composición sea coherente y entendible por el usuario.
+
+    El principal elemento que interviene en la parte gráfica sería el renderizado. Este proceso  consiste en la interpretación por parte del ordenador de una escena de tres dimensiones para crear una imagen bidimensional.
+    
+    La  información que se procesa para realizar el render es la geometría del modelo 3D, las características de su superficie (color y material), la iluminación de la escena y la posición de la cámara.</li>
+  <div align="center"> <image src="https://www.innovae.eu/wp-content/uploads/2020/03/foto_2_MotorGrafico-500x369.png"></image></div>
+
+  <br>
+  <div align="center"><font face="Arial Black", size="5">VISION ARTIFICIAL</font> </div>
+  <br>
+  <li>Las técnicas de visión artificial que se aplican en Realidad Aumentada son muy variadas, y se denominan principalmente tecnología de seguimiento o tracking. Existen muchos tipos, por ejemplo, el tracking facial, que permite detectar y seguir la posición de una cara, o el tracking de texturas, que posiciona una imagen de referencia en un sistema de coordenadas tridimensional. Las técnicas de visión artificial más novedosas que se emplean actualmente incorporan sensores activos basados en luz estructurada, tracking SLAM o tracking 3D.
+
+    Para que una experiencia de Realidad Aumentada sea satisfactoria, debe funcionar en tiempo real. Esto quiere decir que cada uno de los dos módulos debe hacerlo también, y ambos son muy exigentes con el uso de los recursos computacionales. Así que el módulo de render debe ser capaz de pintar unas 60 imágenes por segundo, y el módulo de tracking de igual modo, ser capaz de analizar y extraer la información de 60 imágenes por segundo.</li>
+<div align="center"> <image src="https://www.innovae.eu/wp-content/uploads/2020/03/foto_3_VisionArtificial-500x369.png"></image> </div>
+<br>
+<div align="center">font face="Arial Black", size="5">DIFERENCIAS DE REALIDAD VIRTUAL Y REALIDAD AUMENTADA</font></div>
+<br>
+<p>Desde que las gafas de Realidad Aumentada han comenzado a  utilizarse, puede ser más fácil confundir entre sí estas dos tecnologías. Las principales diferencias entre una y otra, consisten básicamente en la intensidad de la inmersión que propone una experiencia.
+
+    Digamos que la máxima inmersión, se experimenta cuando todas las  sensaciones que el usuario percibe son creadas por el ordenador, o sea virtuales. Este sería el caso de la Realidad Virtual y las gafas “cerradas”, que no permiten ver nada de lo que pasa fuera del entorno virtual.
+    
+    Por el contrario, las gafas Realidad Aumentada superponen  información al lugar en el que nos encontramos, de manera que somos conscientes de donde estamos realmente o de los obstáculos que hay en una habitación.</p>
+  <div align="center">  <image src="https://i.ytimg.com/vi/IzAuGa7YKeU/maxresdefault.jpg" style="width: 550px; height: 350px; padding: 30px;"></image> </div>
+   <br>
+<div align="center"><font face="Arial Black", size="5">USOS DE LA REALIDAD AUMENTADA</font></div>
+<br>
+<p>Vamos a ver algunos de los principales usos de las aplicaciones de realidad aumentada. Desde la educación hasta la sanidad, te dejamos con algunos ejemplos de usos que esta tecnología tiene en la actualidad.</p>
+<br>
+<font face="Arial Black", size="5">EDUCACION</font>
+<br>
+<li>Existen algunos proyectos educativos que sustentan una parte de la formación de los niños y adolescentes en el uso de aplicaciones de realidad aumentada para, por ejemplo, mostrar e interactuar con mapas del sistema solar o partituras musicales.
+
+    La realidad aumentada ofrece muchas posibilidades en el ámbito educativo, muchas de las cuales aún están por desarrollarse de forma plena.</li>
+<br>
+<font face="Arial Black", size="5">TURISMO</font>
+<br>
+<li>Las aplicaciones de realidad aumentada son una gran oportunidad para las empresas dedicadas al turismo. Gracias al desarrollo de estas tecnologías se están pudiendo ofrecer nuevos tipos de experiencias relacionadas con las visitas a ciudades por todo el mundo.
+
+    De hecho, cada vez son más frecuentes los recorridos virtuales a pie de calle que reconstruyen partes históricas de las ciudades que se visitan.</li>
+<br>
+<font face="Arial Black", size="5">ENTRETENIMIENTO</font>
+<br>
+<li>Probablemente sea donde más ejemplos podemos encontrar del uso de aplicaciones de realidad aumentada. Marcas y productos como Pokémon o Harry Potter tienen sus propios juegos de realidad aumentada que han sido todo un éxito comercial.
+
+    La industria del entretenimiento, las marcas y las empresas han visto una gran oportunidad en este tipo de tecnología para apoyarse y dar cobertura a sus propiedades intelectuales más grandes.
+</li>
+<br>
+<font face="Arial Black", size="5">LOGISTICA EMPRESARIAL</font>
+<br>
+<li>Las aplicaciones de realidad aumentada ofrecen una gran variedad de oportunidades para aumentar la eficiencia y ahorrar costes en muchas de las áreas de la logística empresarial.
+Por ejemplo, DHL ya ha implementado gafas de realidad aumentada para enseñar a los trabajadores las rutas más cortas dentro del almacén para llegar a un determinado objeto.
+</li>
+<br>
+<font face="Arial Black", size="5">MEDICINA</font>
+<br>
+<li>Desde el manejo de equipos de resonancia magnética hasta la realización de cirugías complejas, las aplicaciones de realidad aumentada tienen el potencial para mejorar la profundidad y la efectividad de la atención sanitaria en muchos de sus aspectos fundamentales.</li>
+<br>
+<div align="center"> <font face="Arial Black", size="5">RESUMEN</font> </div>
+<br>
+<div align="center"> <p>Aqui una imagen para resumir las diferencias de Realidad Virtual & Realidad Aumentada</p> </div>
+<div align="center"> <image src="https://cdn2.hubspot.net/hubfs/5411390/Imported_Blog_Media/592x610px_2017-06_art_Blogpost_realidad-virtual.png"></image> </div>
+<br>
+<div align="center"> <font face="Arial Black", size="5">QUE PASA QUIERES MAS CONTENIDO?</font> </div>
+<div align="center"> <p>Para tu suerte tenemos un par de videos para que sigas teniendo mas conocimiento en el campo</p></div>
+<br>
+<font face="Arial Black", size="3">     REALIDAD VIRTUAL VS REALIDAD AUMENTADA</font>
+<br>
+<image src="https://i.ytimg.com/vi/IzAuGa7YKeU/maxresdefault.jpg" style="width: 450px; height: 250px; padding: 30px;"></image>
+<a class="Boton" href="https://youtu.be/IzAuGa7YKeU"> Link Directo </a>
+<br>
+<br>
+<font face="Arial Black", size="3">QUE ES Y PARA QUE SIRVE LA REALIDAD AUMENTADA</font>
+<br>
+<image src="https://i.ytimg.com/vi/-qb4YkhRO58/maxresdefault.jpg" style="width: 450px; height: 250px; padding: 30px;"></image>
+<a class="Boton" href="https://youtu.be/jOCWX9fCcOg"> Link Directo </a>
+<br>
+<font face="Arial Black", size="3">ANALISIS LA REALIDAD VIRTUAL</font>
+<br>
+<image src="https://img.freepik.com/vector-gratis/ciencia-ecologia-planeta-tierra-concepto-gafas-realidad-virtual-proyeccion-holografica-vr-investigacion-futurista-guardar-ilustracion-analisis-datos-arquitecto-analisis-terraformacion-naturaleza_115739-758.jpg" style="width: 450px; height: 250px; padding: 30px;"></image>
+<a class="Boton" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwjsw7-glfb2AhUBSjABHSPFDGwQtwJ6BAgREAI&url=https%3A%2F%2Fwww.hobbyconsolas.com%2Findustria%2Fanalisis-realidad-virtual-llega-quedarse-232&usg=AOvVaw00c94cAXPRNiO9nrULo5c5">Link directo</a>
+<br>
+<br>
+<div align="center"><font face="Impact">PARA VER LA DOCUMENTACION DE LA PAGINA Y TODO SUS CREDITOS USA LA BARRA QUE ESTA LA PARTE SUPERIOR </font> </div>
+
+<!--Pie sencillo para la pagina-->
+   <footer  style="width:100%; margin-left: 0px;"  >
+    <div align="center", class="copyright" style="background-color: #050505;">
+        <div class="container-fluid" style="background-color: #070707; color: #bbdefb;">
+            ©  Copyright: Jacket-Jesus Dev 2022
+    
+        </div>
+    </div>
+</body>
+</html>
